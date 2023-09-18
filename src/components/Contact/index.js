@@ -128,9 +128,12 @@ const Contact = () => {
         .then((result) => {
           setOpen(true);
           form.current.reset();
-        }, (error) => {
-          console.log(error.text);
-        });
+        }, 
+        (error) => {
+        console.log(error.text);
+        setOpen(true);
+        }
+      );
     }
 
     return (
