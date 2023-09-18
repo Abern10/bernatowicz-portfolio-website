@@ -36,7 +36,6 @@ const Span = styled.span`
 const Card = styled.div`
     width: 650px;
     border-radius: 10px;
-    box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
     padding: 12px 16px;
     justify-content: space-between;
     position: relative;
@@ -64,7 +63,7 @@ const Card = styled.div`
         -webkit-line-clamp: unset;
 
     }
-    border: 0.1px solid #854CE6;
+    border: 0.1px solid #2481f2;
 `
 const Top = styled.div`
     width: 100%;
@@ -74,7 +73,6 @@ const Top = styled.div`
 
 const Image = styled.img`
     height: 50px;
-    background-color: #000;
     border-radius: 10px;
     margin-top: 4px;
     @media only screen and (max-width: 768px){
@@ -115,14 +113,14 @@ const Date = styled.div`
     }
 `
 
-const Grade = styled.div`
-    font-size: 14px;
-    font-weight: 500;
-    color: ${({ theme }) => theme.text_secondary + 99};
-    @media only screen and (max-width: 768px){
-        font-size: 12px;
-    }
-`
+// const Grade = styled.div`
+//     font-size: 14px;
+//     font-weight: 500;
+//     color: ${({ theme }) => theme.text_secondary + 99};
+//     @media only screen and (max-width: 768px){
+//         font-size: 12px;
+//     }
+// `
 
 const EducationCard = ({ education }) => {
     return (
@@ -135,7 +133,7 @@ const EducationCard = ({ education }) => {
                     <Date>{education.date}</Date>
                 </Body>
             </Top>
-            <Grade><b>Grade: </b>{education.grade}</Grade>
+            {/* <Grade><b>Grade: </b>{education.grade}</Grade> */}
             <Description>
                 <Span>{education.desc}</Span>
             </Description>

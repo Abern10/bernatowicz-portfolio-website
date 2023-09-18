@@ -36,11 +36,11 @@ font-size: 42px;
 text-align: center;
 font-weight: 600;
 margin-top: 20px;
-  color: ${({ theme }) => theme.text_primary};
-  @media (max-width: 768px) {
-      margin-top: 12px;
-      font-size: 32px;
-  }
+color: ${({ theme }) => theme.text_primary};
+@media (max-width: 768px) {
+  margin-top: 12px;
+  font-size: 32px;
+}
 `;
 
 const Desc = styled.div`
@@ -106,10 +106,7 @@ const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
   text-align: center;
-  background: hsla(271, 100%, 50%, 1);
-  background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+  background: #2481f2;
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
@@ -140,9 +137,9 @@ const Contact = () => {
         <Container>
           <Wrapper>
             <Title>Contact</Title>
-            <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
+            <Desc>Lets connect</Desc>
             <ContactForm ref={form} onSubmit={handleSubmit}>
-              <ContactTitle>Email Me 🚀</ContactTitle>
+              <ContactTitle>Email Me</ContactTitle>
               <ContactInput placeholder="Your Email" name="from_email" />
               <ContactInput placeholder="Your Name" name="from_name" />
               <ContactInput placeholder="Subject" name="subject" />
