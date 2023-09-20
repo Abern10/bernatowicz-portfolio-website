@@ -17,7 +17,7 @@ export const Bio = {
       "3rd year student",
     ],
     description:
-      "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+      "As a third year undergraduate at the University of Illinois at Chicago (UIC) pursuing a degree in Computer Science with a concentration in Software Engineering, I am dedicated to expanding my knowledge and skills in the field of programming. With a strong foundation in a wide variety of programming languages such as C++, C, HTML/CSS, Java, JavaScript, and Python, in addition I have used libraries and frameworks such as React. I am equipped with the technical expertise needed to tackle complex software engineering challenges. Throughout my academic journey, I have demonstrated a strong work ethic and a passion for learning. I am committed to staying up-to-date with the latest developments in the field of computer science and software engineering, and I am always eager to take on new projects and challenges. I am excited about the opportunities that lie ahead in the field of computer science and software engineering, and I am eager to leverage my skills and expertise to make a meaningful contribution to the industry.",
     github: "https://github.com/Abern10",
     resume: "https://drive.google.com/file/d/1AXkbVyASrrdB-3bjDLZ72YTjt5efKKUI/view?usp=share_link",
     linkedin: "https://www.linkedin.com/in/alexander-bernatowicz-931462224/",
