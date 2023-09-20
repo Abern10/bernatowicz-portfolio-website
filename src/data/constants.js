@@ -6,6 +6,7 @@ import courseReview from '../images/csCourseReview.png'
 import basimImg from '../images/basimimg.png'
 import martinImg from '../images/martinimg.png'
 import pedroImg from '../images/pedroimg.png'
+import searchEngineImg from '../images/search-engine.png'
 
 export const Bio = {
   
@@ -180,7 +181,7 @@ export const Bio = {
       date: "September 2022",
       description:
         "This project recieves a query search and returns a list of relatable websites from several files. It was programmed in C++. The program will parse the inputted query serach and split each word into an individual tokens, cleaning off any possible puncuation during the process. It will do the same with all the header paragraphs of the website links in the files. After this process is complete the program will compare the search to the words in the header paragraphs and return a list of most relatable websites. Two unique functions have been added to this search engine that are also used in major search engines in society, the ability to recieve unique indexes through using symbols such as + or -. As well as the removal of stop words such as he, she, and, or etc, in turn returning more accurate query searches.",
-      image: "https://bernatowiczportfolio.com/images/search-engine-picture.png",
+      image: searchEngineImg,
       tags: ["C++", "Makefile"],
       category: "backend",
       github: "https://github.com/Abern10/Search-Engine",
