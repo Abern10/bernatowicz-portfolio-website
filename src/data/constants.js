@@ -1,7 +1,11 @@
-import HeroImg from '/Users/AlexBernatowicz/Desktop/Projects/bernatowicz-portfolio-website/src/images/HeroImage.jpg'
-import BarChart from '/Users/AlexBernatowicz/Desktop/Projects/bernatowicz-portfolio-website/src/images/barchartvid.gif'
-import portfolioV1 from '/Users/AlexBernatowicz/Desktop/Projects/bernatowicz-portfolio-website/src/images/portfoliov1.png'
-import wumpusV2 from '/Users/AlexBernatowicz/Desktop/Projects/bernatowicz-portfolio-website/src/images/wumpus-img.png'
+import HeroImg from '../images/HeroImage.jpg'
+import BarChart from '../images/barchartvid.gif'
+import portfolioV1 from '../images/portfoliov1.png'
+import wumpusV2 from '../images/wumpus-img.png'
+import courseReview from '../images/csCourseReview.png'
+import basimImg from '../images/basimimg.png'
+import martinImg from '../images/martinimg.png'
+import pedroImg from '../images/pedroimg.png'
 
 export const Bio = {
   
@@ -212,6 +216,47 @@ export const Bio = {
     },
     {
       id: 2,
+      title: "CS Course Review",
+      date: "April 2023",
+      description: 
+      "I am thrilled to announce that my team and I won first place at the first-ever UIC Hackathon, called SparkHacks, which took place over the weekend. Our team competed in the category with the prompt 'Community Resilience', where we had twenty-four hours to come up with an idea, write a program, and submit it the following day. Our idea was a website named 'CS Course Review', we took inspiration from the popular website ratemyprofessors and decided to make a similar website which allows students to learn about current computer science courses at UIC. Users can search for a course by the course number in a search bar or hover over drop-down menus to find a course. Once on the course webpage, users can see all the instructors currently teaching the course, a short description of the course, as well as an overall rating, difficulty rating, and course load rating that students can submit. The ratings are depicted by bar charts, providing users with a quick visual overview of the course.",
+      image: courseReview,
+      tags: ["HTML", "CSS", "JavaScript"],
+      category: "frontend",
+      github: "https://github.com/Abern10/Hackathon-Spring-23",
+      webapp: "",
+      member: [
+        {
+          name: "Alexander Bernatowicz",
+          img: HeroImg,
+          linkedin: "https://www.linkedin.com/in/alexander-bernatowicz-931462224/",
+          github: "https://github.com/Abern10",
+        },
+        {
+          name: "Pedro Pardo",
+          img: pedroImg,
+          linkedin: "https://www.linkedin.com/in/pedropardo021/",
+          github: "https://github.com/pedropardo14",
+
+        },
+        {
+          name: "Basim Nabulsi",
+          img: basimImg,
+          linkedin: "https://www.linkedin.com/in/basim-nabulsi/",
+          github: "https://github.com/basimsn",
+
+        },
+        {
+          name: "Martin Michel",
+          img: martinImg,
+          linkedin: "https://www.linkedin.com/in/martin-michel-142010259/?trk=contact-info",
+          github: "https://github.com/scampire",
+
+        },
+      ],
+    },
+    {
+      id: 3,
       title: "Personal Protfolio Website Version 1",
       date: "January 2023",
       description: "",
@@ -230,7 +275,7 @@ export const Bio = {
       ]
     },
     {
-      id: 3,
+      id: 4,
       title: "Wumpus Version 2",
       date: "October 2022",
       description:
