@@ -7,6 +7,8 @@ import basimImg from '../images/basimimg.png'
 import martinImg from '../images/martinimg.png'
 import pedroImg from '../images/pedroimg.png'
 import searchEngineImg from '../images/search-engine.png'
+import chatapp from '../images/chatapp.png'
+import threads from '../images/threads.png'
 
 export const Bio = {
   
@@ -17,7 +19,7 @@ export const Bio = {
       "3rd year student",
     ],
     description:
-      "As a third year undergraduate at the University of Illinois at Chicago (UIC) pursuing a degree in Computer Science with a concentration in Software Engineering, I am dedicated to expanding my knowledge and skills in the field of programming. With a strong foundation in a wide variety of programming languages such as C++, C, HTML/CSS, Java, JavaScript, and Python, in addition I have used libraries and frameworks such as React. I am equipped with the technical expertise needed to tackle complex software engineering challenges. Throughout my academic journey, I have demonstrated a strong work ethic and a passion for learning. I am committed to staying up-to-date with the latest developments in the field of computer science and software engineering, and I am always eager to take on new projects and challenges. I am excited about the opportunities that lie ahead in the field of computer science and software engineering, and I am eager to leverage my skills and expertise to make a meaningful contribution to the industry.",
+      "As a third year undergraduate at the University of Illinois at Chicago (UIC) pursuing a degree in Computer Science with a concentration in Software Engineering, I am dedicated to expanding my knowledge and skills in the field of programming. With a strong foundation in a wide variety of programming languages such as C++, C, HTML/CSS, Java, JavaScript, TypeScript, and Python. In addition, I have used libraries and frameworks such as ReactJS and NextJS. I am equipped with the technical expertise needed to tackle complex software engineering challenges. Throughout my academic journey, I have demonstrated a strong work ethic and a passion for learning. I am committed to staying up-to-date with the latest developments in the field of computer science and software engineering, and I am always eager to take on new projects and challenges. I am excited about the opportunities that lie ahead in the field of computer science and software engineering, and I am eager to leverage my skills and expertise to make a meaningful contribution to the industry.",
     github: "https://github.com/Abern10",
     resume: "https://drive.google.com/file/d/1AXkbVyASrrdB-3bjDLZ72YTjt5efKKUI/view?usp=share_link",
     linkedin: "https://www.linkedin.com/in/alexander-bernatowicz-931462224/",
@@ -28,9 +30,14 @@ export const Bio = {
       title: "Frontend",
       skills: [
         {
-            name: "React Js",
+            name: "React JS",
             image:
                 "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+        },
+        {
+          name: "Next JS",
+          image:
+              "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
         },
         {
             name: "HTML",
@@ -38,22 +45,24 @@ export const Bio = {
         },
         {
             name: "CSS",
-            image:
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
         },
         {
             name: "JavaScript",
-            image:
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
         },
+        {
+          name: "TypeScript",
+          image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-plain.svg",
+      },
       ],
     },
     {
       title: "Backend",
       skills: [
         {
-            name: "Node Js",
-            image: "https://nodejs.org/static/images/logo.svg",
+            name: "MongoDB",
+            image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
         },
         {
             name: "C",
@@ -104,19 +113,21 @@ export const Bio = {
         },
         {
             name: "Netlify",
-            image:
-                "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+            image: "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
         },
         {
             name: "VS Code",
-            image:
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
         },
         {
             name: "Xcode",
-            image:
-                "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/xcode/xcode-original.svg",
+            image: "https://raw.githubusercontent.com/devicons/devicon/55609aa5bd817ff167afce0d965585c92040787a/icons/xcode/xcode-original.svg",
         },
+        {
+          name: "Clerk",
+          image: "https://clerk.com/_next/image?url=%2Fimages%2Fclerk-logo.svg&w=256&q=75",
+        },
+
 
       ],
     },
@@ -177,6 +188,45 @@ export const Bio = {
   export const projects = [
     {
       id: 0,
+      title: "Threads Clone",
+      date: "October 2023",
+      description:
+        "Threads is a spin-off of the popular social media platform Threads, offering an innovative approach to online discussions and engagement. Built using TypeScript, JavaScript, CSS, and MongoDB, it allows users to sign up or log in through Clerk authorization and explore a wide array of threaded discussions. MongoDB is used to store users, their threads, and communities by creating separate schemas for each, ensuring efficient data management. The platform adapts its layout to suit various screen sizes, providing a seamless user experience. Users can access sections like user search, activity updates, thread creation, community-specific discussions, and customizable profile editing. This platform empowers users to shape their online identity, participating actively in discussions by commenting and replying to threads, while also providing suggestions through an improved SEO system. Threads is where meaningful conversations and connections come to life.",
+      image: threads,
+      tags: ["TypeScript", "MongoDB", "JavaScript", "CSS"],
+      category: "fullstack",
+      github: "https://github.com/Abern10/threads_clone",
+      webapp: "",
+      member: [
+        {
+          name: "Alexander Bernatowicz",
+          img: HeroImg,
+          linkedin: "https://www.linkedin.com/in/alexander-bernatowicz-931462224/",
+          github: "https://github.com/Abern10",
+        },
+      ],
+    },
+    {
+      id: 1,
+      title: "Live Chat Application",
+      date: "October 2023",
+      description: "As I embarked on this project, I explored the intricacies of web communication, harnessing the power of sockets and REST APIs to facilitate real-time interactions and data exchange. Adding image support, I also delved into the intricacies of React Hooks and Props, allowing for an engaging user experience. I carefully crafted the design, paying attention to the finer points of CSS for a visually appealing and responsive interface. In the application users can be apart of several chat rooms and invite users, opening up avenues for both one-on-one messaging and group conversations. The application boasts a rich set of features, such as read receipts, online status indicators, and even sound notifications to alert users of incoming messages, all aimed at creating an immersive and engaging chat experience. Users can actively participate in multiple chat rooms and direct message conversations, adding to the platform's versatility. My 'Live Chat Application' reflects my journey in web development, offering a multifaceted platform that blends real-time communication, dynamic design, and a host of valuable features into a seamless and user-centric experience.",
+      image: chatapp,
+      tags: ["JavaScript", "MongoDB", "HTML", "CSS"],
+      category: "fullstack",
+      github: "https://github.com/Abern10/chat_application",
+      webapp: "",
+      member: [
+        {
+          name: "Alexander Bernatowicz",
+          img: HeroImg,
+          linkedin: "https://www.linkedin.com/in/alexander-bernatowicz-931462224/",
+          github: "https://github.com/Abern10",
+        },
+      ],
+    },
+    {
+      id: 2,
       title: "Search Engine",
       date: "September 2022",
       description:
@@ -196,7 +246,7 @@ export const Bio = {
       ],
     },
     {
-      id: 1,
+      id: 3,
       title: "Animated Bar Chart",
       date: "October 2022",
       description: 
@@ -216,7 +266,7 @@ export const Bio = {
       ],
     },
     {
-      id: 2,
+      id: 4,
       title: "CS Course Review",
       date: "April 2023",
       description: 
@@ -257,8 +307,8 @@ export const Bio = {
       ],
     },
     {
-      id: 3,
-      title: "Personal Protfolio Website Version 1",
+      id: 5,
+      title: "Personal Portfolio Website Version 1",
       date: "January 2023",
       description: "",
       image: portfolioV1,
@@ -276,7 +326,7 @@ export const Bio = {
       ]
     },
     {
-      id: 4,
+      id: 6,
       title: "Wumpus Version 2",
       date: "October 2022",
       description:

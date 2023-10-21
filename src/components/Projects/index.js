@@ -22,22 +22,22 @@ const Projects = ({openModal,setOpenModal}) => {
           }
           <Divider />
           {toggle === 'frontend' ?
-            <ToggleButton active value="frontend" onClick={() => setToggle('frontend')}>Frontend</ToggleButton>
+            <ToggleButton active value="frontend" onClick={() => setToggle('frontend')}>FRONTEND</ToggleButton>
             :
-            <ToggleButton value="frontend" onClick={() => setToggle('frontend')}>Frontend</ToggleButton>
+            <ToggleButton value="frontend" onClick={() => setToggle('frontend')}>FRONTEND</ToggleButton>
           }
           <Divider />
           {toggle === 'backend' ?
-            <ToggleButton active value="backend" onClick={() => setToggle('backend')}>Backend</ToggleButton>
+            <ToggleButton active value="backend" onClick={() => setToggle('backend')}>BACKEND</ToggleButton>
             :
-            <ToggleButton value="backend" onClick={() => setToggle('backend')}>Backend</ToggleButton>
+            <ToggleButton value="backend" onClick={() => setToggle('backend')}>BACKEND</ToggleButton>
           }
-          {/* <Divider />
-          {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+          <Divider />
+          {toggle === 'fullstack' ?
+            <ToggleButton active value="fullstack" onClick={() => setToggle('fullstack')}>FULLSTACK</ToggleButton>
             :
-            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
-          } */}
+            <ToggleButton value="fullstack" onClick={() => setToggle('fullstack')}>FULLSTACK</ToggleButton>
+          }
         </ToggleButtonGroup>
         <CardContainer>
           {toggle === 'all' && projects
