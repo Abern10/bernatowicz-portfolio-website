@@ -193,7 +193,7 @@ export const Bio = {
       description:
         "Threads is a spin-off of the popular social media platform Threads, offering an innovative approach to online discussions and engagement. Built using TypeScript, JavaScript, CSS, and MongoDB, it allows users to sign up or log in through Clerk authorization and explore a wide array of threaded discussions. MongoDB is used to store users, their threads, and communities by creating separate schemas for each, ensuring efficient data management. The platform adapts its layout to suit various screen sizes, providing a seamless user experience. Users can access sections like user search, activity updates, thread creation, community-specific discussions, and customizable profile editing. This platform empowers users to shape their online identity, participating actively in discussions by commenting and replying to threads, while also providing suggestions through an improved SEO system. Threads is where meaningful conversations and connections come to life.",
       image: threads,
-      tags: ["TypeScript", "MongoDB", "JavaScript", "CSS"],
+      tags: ["NextJS", "ReactJS", "TypeScript", "MongoDB", "JavaScript", "CSS"],
       category: "fullstack",
       github: "https://github.com/Abern10/threads_clone",
       webapp: "",
@@ -212,7 +212,7 @@ export const Bio = {
       date: "October 2023",
       description: "As I embarked on this project, I explored the intricacies of web communication, harnessing the power of sockets and REST APIs to facilitate real-time interactions and data exchange. Adding image support, I also delved into the intricacies of React Hooks and Props, allowing for an engaging user experience. I carefully crafted the design, paying attention to the finer points of CSS for a visually appealing and responsive interface. In the application users can be apart of several chat rooms and invite users, opening up avenues for both one-on-one messaging and group conversations. The application boasts a rich set of features, such as read receipts, online status indicators, and even sound notifications to alert users of incoming messages, all aimed at creating an immersive and engaging chat experience. Users can actively participate in multiple chat rooms and direct message conversations, adding to the platform's versatility. My 'Live Chat Application' reflects my journey in web development, offering a multifaceted platform that blends real-time communication, dynamic design, and a host of valuable features into a seamless and user-centric experience.",
       image: chatapp,
-      tags: ["JavaScript", "MongoDB", "HTML", "CSS"],
+      tags: ["ReactJS", "JavaScript", "MongoDB", "HTML", "CSS"],
       category: "fullstack",
       github: "https://github.com/Abern10/chat_application",
       webapp: "",
@@ -332,7 +332,7 @@ export const Bio = {
       description:
       "This program is a version of the popular game 'Hunt the Wumpus'. Hunt the Wumpus is a classic text-based adventure game by Gregory Yob from 1972. The Wumpus lives in a completely dark cave of 20 rooms. Each room has 3 tunnels leading to other rooms. The goal of the game is to kill the wumpus with the arrow. As the game is played, a variety of messages appear depending on the room the player has entered and if or which hazard is in the room. This program implements the game using a dynamic sized array, all created using the C programming language.",
       image: wumpusV2,
-      tags: ["C"],
+      tags: ["C", "Makefile"],
       category: "backend",
       github: "https://github.com/Abern10/CS-211/tree/main/project2wumpus",
       webapp: "",
