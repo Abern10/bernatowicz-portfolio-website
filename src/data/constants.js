@@ -21,7 +21,7 @@ export const Bio = {
     description:
       "As a third year undergraduate at the University of Illinois at Chicago (UIC) pursuing a degree in Computer Science with a concentration in Software Engineering, I am dedicated to expanding my knowledge and skills in the field of programming. With a strong foundation in a wide variety of programming languages such as C++, C, HTML/CSS, Java, JavaScript, TypeScript, and Python. In addition, I have used libraries and frameworks such as ReactJS and NextJS. I am equipped with the technical expertise needed to tackle complex software engineering challenges. Throughout my academic journey, I have demonstrated a strong work ethic and a passion for learning. I am committed to staying up-to-date with the latest developments in the field of computer science and software engineering, and I am always eager to take on new projects and challenges. I am excited about the opportunities that lie ahead in the field of computer science and software engineering, and I am eager to leverage my skills and expertise to make a meaningful contribution to the industry.",
     github: "https://github.com/Abern10",
-    resume: "https://drive.google.com/file/d/1AXkbVyASrrdB-3bjDLZ72YTjt5efKKUI/view?usp=share_link",
+    resume: "https://drive.google.com/file/d/1u79N8U7HHs62B6RD7Uc90GRS0bDDSiW0/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/alexander-bernatowicz-931462224/",
   };
   
