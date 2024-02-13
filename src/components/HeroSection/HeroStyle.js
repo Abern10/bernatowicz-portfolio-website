@@ -183,7 +183,7 @@ export const ResumeButton = styled.a`
     transition: all 0.2s ease-in-out !important;
     background-color: #2481f2;
     &:hover {
-        transform: scale(10);
+        transform: scale(1.1);
     }    
     
     
