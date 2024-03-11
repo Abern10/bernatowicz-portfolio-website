@@ -9,7 +9,9 @@ import pedroImg from '../images/pedroimg.png'
 import searchEngineImg from '../images/search-engine.png'
 import chatapp from '../images/chatapp.png'
 import threads from '../images/threads.png'
-import cocrop from '..images/Co-Crop.png'
+import cocrop from '../images/Co-Crop.png'
+import marcinImg from '../images/Marcin.JPG'
+import danielImg from '../images/Daniel.JPG'
 
 export const Bio = {
   
@@ -247,7 +249,7 @@ export const Bio = {
         },
         {
           name: "Marcin Kowalik",
-          img: martinImg,
+          img: marcinImg,
           linkedin: "https://www.linkedin.com/in/marcin-kowalik---/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
           github: "https://github.com/mkowa2",
 
@@ -257,6 +259,13 @@ export const Bio = {
           img: martinImg,
           linkedin: "https://www.linkedin.com/in/martin-michel-142010259/?trk=contact-info",
           github: "https://github.com/scampire",
+
+        },
+        {
+          name: "Daniel Luanginoke",
+          img: danielImg,
+          linkedin: "https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=true&heroEntityKey=urn:li:fsd_profile:ACoAAEKV8DYBdrgIKxmS2wjGrkhm4clUbRTva1Q&keywords=daniel%20luangnikone&origin=RICH_QUERY_SUGGESTION&position=0&searchId=06e0bc9c-c88f-4bcb-b364-b57553e44dbc&sid=Jwe&spellCorrectionEnabled=false",
+          github: "https://github.com/nufrsluludani",
 
         },
 
