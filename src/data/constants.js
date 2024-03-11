@@ -9,6 +9,7 @@ import pedroImg from '../images/pedroimg.png'
 import searchEngineImg from '../images/search-engine.png'
 import chatapp from '../images/chatapp.png'
 import threads from '../images/threads.png'
+import cocrop from '..images/Co-Crop.png'
 
 export const Bio = {
   
@@ -61,6 +62,14 @@ export const Bio = {
       title: "Backend",
       skills: [
         {
+          name: "Node JS",
+          image: "https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original-wordmark.svg",
+        },
+        {
+          name: "Express",
+          image: "https://github.com/devicons/devicon/blob/master/icons/express/express-original-wordmark.svg",
+        },
+        {
             name: "MongoDB",
             image: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
         },
@@ -87,6 +96,11 @@ export const Bio = {
             image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
         },
+        {
+          name: "SQLite3",
+          image:
+          "https://github.com/devicons/devicon/blob/master/icons/sqlite/sqlite-original.svg",
+      },
       ],
     },
     {
@@ -180,7 +194,7 @@ export const Bio = {
       img: "https://cmsv2-assets.apptegy.net/uploads/11210/logo/12628/Lockport_Township_High_School_District_205_logo_template_300.png",
       school: "Lockport Township High School",
       date: "August 2017 - May 2021",
-      desc: "I went to high school at Lockport Township High School. During my time there I was member of the robotics club, auto club, and the mens swimming and water polo team.",
+      desc: "Attended high school at Lockport Township High School. During my time there I was member of the robotics club, auto club, and the mens swimming and water polo team.",
       degree: "High school diploma",
     },
   ];
@@ -208,6 +222,48 @@ export const Bio = {
     },
     {
       id: 1,
+      title: "Co-Crop",
+      date: "February 2024",
+      description:
+        "Co-Crop enables users to explore local crop listings and connect with growers. Moreover, individuals can list their own produce for sale and buy from others, actively contributing to the local marketplace. To further support aspiring growers, Co-Crop features a dedicated resources page guiding first-time cultivators through essential steps in both cultivation and marketing. It also addresses critical topics such as reducing plastic waste, carbon emissions, and combats socioeconomic issues such as food deserts. Co-Crop was meticulously crafted using a powerful tech stack including HTML/CSS, Vanilla Javascript, Node.JS, Express, and SQLite3.",
+      image: cocrop,
+      tags: ["NodeJS/Express", "SQLite3", "HTML/CSS", "Javascript"],
+      category: "fullstack",
+      github: "https://github.com/Abern10/2024-UIC-Hackathon-Co-Crop",
+      webapp: "",
+      member: [
+        {
+          name: "Alexander Bernatowicz",
+          img: HeroImg,
+          linkedin: "https://www.linkedin.com/in/alexander-bernatowicz-931462224/",
+          github: "https://github.com/Abern10",
+        },
+        {
+          name: "Basim Nabulsi",
+          img: basimImg,
+          linkedin: "https://www.linkedin.com/in/basim-nabulsi/",
+          github: "https://github.com/basimsn",
+
+        },
+        {
+          name: "Marcin Kowalik",
+          img: martinImg,
+          linkedin: "https://www.linkedin.com/in/marcin-kowalik---/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+          github: "https://github.com/mkowa2",
+
+        },
+        {
+          name: "Martin Michel",
+          img: martinImg,
+          linkedin: "https://www.linkedin.com/in/martin-michel-142010259/?trk=contact-info",
+          github: "https://github.com/scampire",
+
+        },
+
+      ],
+    },
+    {
+      id: 2,
       title: "Live Chat Application",
       date: "October 2023",
       description: "As I embarked on this project, I explored the intricacies of web communication, harnessing the power of sockets and REST APIs to facilitate real-time interactions and data exchange. Adding image support, I also delved into the intricacies of React Hooks and Props, allowing for an engaging user experience. I carefully crafted the design, paying attention to the finer points of CSS for a visually appealing and responsive interface. In the application users can be apart of several chat rooms and invite users, opening up avenues for both one-on-one messaging and group conversations. The application boasts a rich set of features, such as read receipts, online status indicators, and even sound notifications to alert users of incoming messages, all aimed at creating an immersive and engaging chat experience. Users can actively participate in multiple chat rooms and direct message conversations, adding to the platform's versatility. My 'Live Chat Application' reflects my journey in web development, offering a multifaceted platform that blends real-time communication, dynamic design, and a host of valuable features into a seamless and user-centric experience.",
@@ -226,7 +282,7 @@ export const Bio = {
       ],
     },
     {
-      id: 2,
+      id: 3,
       title: "Search Engine",
       date: "September 2022",
       description:
@@ -246,7 +302,7 @@ export const Bio = {
       ],
     },
     {
-      id: 3,
+      id: 4,
       title: "Animated Bar Chart",
       date: "October 2022",
       description: 
@@ -266,7 +322,7 @@ export const Bio = {
       ],
     },
     {
-      id: 4,
+      id: 5,
       title: "CS Course Review",
       date: "April 2023",
       description: 
@@ -307,7 +363,7 @@ export const Bio = {
       ],
     },
     {
-      id: 5,
+      id: 6,
       title: "Personal Portfolio Website Version 1",
       date: "January 2023",
       description: "",
@@ -326,7 +382,7 @@ export const Bio = {
       ]
     },
     {
-      id: 6,
+      id: 7,
       title: "Wumpus Version 2",
       date: "October 2022",
       description:
