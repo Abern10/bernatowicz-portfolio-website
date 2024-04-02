@@ -1,4 +1,4 @@
-import HeroImg from '../images/HeroImage.jpg'
+import HeroImg from '../images/hero2.jpeg'
 import BarChart from '../images/barchartvid.gif'
 import portfolioV1 from '../images/portfoliov1.png'
 import wumpusV2 from '../images/wumpus-img.png'
