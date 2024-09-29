@@ -18,6 +18,8 @@ import express from '../images/express.svg'
 import NodeJS from '../images/Nodejs.svg'
 import sqlite from '../images/sqlite.svg'
 import AA from '../images/AALogo.jpeg'
+import AASite from '../images/AAsite.png'
+import OLSite from '../images/OLsite.png'
 
 
 export const Bio = {
@@ -426,7 +428,47 @@ export const projects = [
         github: "https://github.com/Abern10",
       }
     ],
-  }
+  },
+  {
+    id: 8,
+    title: "Orbex labs",
+    date: "July 2024",
+    description:
+      "This was my initial project while at Alien Attorney. I was tasked with redesigning and developing the Orbex Labs company website. I began my making a comprehensive report of the original website, taking into account design aspects and user experience. I then created various Figma designs of the new site before developing it.",
+    image: AASite,
+    tags: ["HTML", "CSS", "Vanilla JavaScript"],
+    category: "frontend",
+    // github: "https://alienattorney.com",
+    webapp: "https://alienattorney.com",
+    member: [
+      {
+        name: "Alexander Bernatowicz",
+        img: HeroImg,
+        linkedin: "https://www.linkedin.com/in/alexander-bernatowicz-931462224/",
+        github: "https://github.com/Abern10",
+      }
+    ],
+  },
+  {
+    id: 9,
+    title: "Alien Attorney",
+    date: "August 2024",
+    description:
+      "This was my second project while at Alien Attorney. I was tasked with redesigning and developing the Alien Attorney company website. I used the same process as I did for my first project by creating a comprehensive report of the original website, creating Figma designs, and finally developing the website.",
+    image: OLSite,
+    tags: ["HTML", "CSS", "Vanilla JavaScript"],
+    category: "frontend",
+    // github: "https://alienattorney.com",
+    webapp: "https://orbexlabs.com",
+    member: [
+      {
+        name: "Alexander Bernatowicz",
+        img: HeroImg,
+        linkedin: "https://www.linkedin.com/in/alexander-bernatowicz-931462224/",
+        github: "https://github.com/Abern10",
+      }
+    ],
+  },
 ];
 
 // export const TimeLineData = [
