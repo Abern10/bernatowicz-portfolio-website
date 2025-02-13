@@ -177,22 +177,22 @@ export const ResumeButton = styled.a`
     width: 95%;
     max-width: 300px;
     text-align: center;
-    padding: 16px 0;
-    color:${({ theme }) => theme.white};
+    padding: 16px 24px; 
+    color: ${({ theme }) => theme.white};
     border-radius: 20px;
     cursor: pointer;
     font-size: 20px;
     font-weight: 600;
-    transition: all 0.2s ease-in-out !important;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;  /* Improved hover transition */
     background-color: #2481f2;
+    
     &:hover {
-        transform: scale(1.1);
+        transform: scale(1.05);
+        background-color: #1a6fd9;
     }    
     
-    
     @media (max-width: 640px) {
-        padding: 12px 0;
+        padding: 12px 20px;
         font-size: 18px;
     } 
-
 `;
