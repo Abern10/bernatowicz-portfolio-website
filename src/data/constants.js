@@ -23,7 +23,7 @@ export const Bio = {
     name: "Alexander Bernatowicz",
     roles: [
       "programmer",
-      "software devloper",
+      "software developer",
       "4th year student",
     ],
     description:
